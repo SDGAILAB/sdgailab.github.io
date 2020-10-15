@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  /*background-color: #f6f6f6;*/
 }
 
 .sp-loading {
@@ -180,11 +181,10 @@ html, body {
 }
 
 .clean-block .block-heading p {
-  text-align: center;
+  text-align: left;
   max-width: 920px;
   margin: auto;
-  opacity: .7;
-  padding: 50px;
+  padding: 20px;
 }
 
 img, svg {
@@ -195,6 +195,7 @@ img, svg {
 
 .page-footer.dark {
   background-color: #222425;
+  margin-bottom: 0px;
 }
 
 .clean-block.clean-services .card {
@@ -210,5 +211,43 @@ img, svg {
   margin-right: -15px;
   margin-left: -15px;
   margin-bottom: 100px;
+}
+
+.team-clean .item {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.clean-block.dark {
+  padding-bottom: 10px;
+}
+
+@media (min-width:576px) {
+  .clean-block {
+    padding-bottom: 0px;
+  }
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.page-footer.dark .footer-copyright p {
+  color: #ccc;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.clean-block.clean-services .card h4 {
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: .8em;
+  text-align: center;
+}
+
+#paticles-js {
+  height: 100%;
+  width: 100%;
+  z-index: 4;
 }
 
