@@ -1,6 +1,6 @@
 .team-clean {
   color: #313437;
-  background-color: #fff;
+  /*background-color: #f6f6f6;*/
 }
 
 .team-clean p {
@@ -38,7 +38,7 @@
 
 .team-clean .item {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .team-clean .item .name {
