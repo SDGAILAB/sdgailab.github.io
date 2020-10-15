@@ -220,6 +220,7 @@ img, svg {
 
 .clean-block.dark {
   padding-bottom: 10px;
+  overflow-y: scroll;
 }
 
 @media (min-width:576px) {
@@ -252,5 +253,6 @@ img, svg {
 }
 
 .navbar.navbar-light.navbar-expand-lg.fixed-top.bg-white.clean-navbar {
+  overflow-y: scroll;
 }
 
