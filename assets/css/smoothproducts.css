@@ -1,7 +1,7 @@
 html, body {
   height: 101%;
   width: 100%;
-  /*background-color: #f6f6f6;*/
+  background-color: #f6f6f6;
 }
 
 .sp-loading {
@@ -223,12 +223,6 @@ img, svg {
   overflow-y: scroll;
 }
 
-@media (min-width:576px) {
-  .clean-block {
-    padding-bottom: 0px;
-  }
-}
-
 .text-center {
   text-align: center!important;
 }
@@ -254,5 +248,44 @@ img, svg {
 
 .navbar.navbar-light.navbar-expand-lg.fixed-top.bg-white.clean-navbar {
   overflow-y: scroll;
+}
+
+.clean-block.clean-hero {
+  position: relative;
+  text-align: center;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  /*-ms-flex-align: center;*/
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.particle-background {
+  position: absolute;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.clean-block.clean-hero:before {
+  content: "";
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 1;
 }
 
