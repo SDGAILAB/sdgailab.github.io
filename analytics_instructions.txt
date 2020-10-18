@@ -1,0 +1,17 @@
+//Google Analytics Global Site Tag (gtag.js)
+
+//Below  is the Google Analytics Global Site Tag (gtag.js) tracking code for SDG AI Lab. 
+//Copy and paste this code as the first item into the <HEAD> of all pages. 
+
+//--------------------Copy paste the below code ----------------------------
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180757776-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180757776-1');
+</script>
