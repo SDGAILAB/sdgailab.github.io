@@ -9,3 +9,6 @@ v.0.1.0 on June 1, 2021
 - Adjustments on the Newsroom articles and About Us section
 - Font style
 - Information based on latest updates
+
+v.0.1.1 on June 6, 2021
+- Minor adjusments on file structure, typos, missing links
