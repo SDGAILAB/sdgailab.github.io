@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../components/layout/BaseLayout.astro';
+import ProjectDetail from '../../islands/ProjectDetail';
+---
+
+<BaseLayout
+  title="Project — SDG AI Lab"
+  description="A solution from the SDG AI Lab."
+  noindex={true}
+>
+  <ProjectDetail client:load />
+</BaseLayout>
